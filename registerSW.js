@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/golde5-app-community/sw.js', { scope: '/golde5-app-community/' })})}
